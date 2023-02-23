@@ -9,6 +9,8 @@ function List() {
 
     filtered = todos;
 
+    //deneme
+
     if (filter !== "all") {
         filtered=todos.filter((todo) =>
         filter === "active"
